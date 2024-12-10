@@ -1,4 +1,4 @@
-.div1 {
+#div1 {
   padding: 5px;
   display: grid;
   gap: 1px;
@@ -137,6 +137,7 @@ a {
 }
 .tab1 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1px;
   border: 1px #1836de;
@@ -146,6 +147,7 @@ a {
 }
 .tab2 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1px;
   border: 1px solid #1836de;
@@ -154,6 +156,7 @@ a {
 }
 .tab3 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1px;
   border: 1px solid #1836de;
@@ -162,6 +165,7 @@ a {
 }
 .tab4 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1px;
   border: 1px solid #1836de;
@@ -170,6 +174,7 @@ a {
 }
 .tab5 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1px;
   border: 1px solid #1836de;
@@ -186,10 +191,11 @@ a {
   align-items: center;
   gap: 20px;
   border: 1px solid;
-  padding: 60px;
+  padding: 50px;
   width: 100vw;
   height: 70%;
   margin-top: 60px;
+  flex-wrap: wrap;
 }
 .image {
   flex: 0 0 150px;
