@@ -37,6 +37,7 @@ img {
 }
 .item9 {
   grid-column-start: 6;
+  grid-column-end: 7;
 }
 .item10 {
   grid-row-start: 3;
@@ -143,7 +144,7 @@ a {
   border: 1px #1836de;
   background-color: #1836de;
   margin-top: 55px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .tab2 {
   display: flex;
@@ -152,7 +153,7 @@ a {
   padding: 1px;
   border: 1px solid #1836de;
   margin-top: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .tab3 {
   display: flex;
@@ -161,7 +162,7 @@ a {
   padding: 1px;
   border: 1px solid #1836de;
   margin-top: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .tab4 {
   display: flex;
@@ -170,7 +171,7 @@ a {
   padding: 1px;
   border: 1px solid #1836de;
   margin-top: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .tab5 {
   display: flex;
@@ -179,7 +180,7 @@ a {
   padding: 1px;
   border: 1px solid #1836de;
   margin-top: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .icon {
   margin-right: 15px;
@@ -206,7 +207,7 @@ a {
 }
 .text {
   flex: 1;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #container {
   display: flex;
@@ -240,8 +241,9 @@ a {
   background-color: white;
   border: 1px solid;
 }
-.grid {
+.grid1 {
   display: grid;
+
   grid-template-columns: 120px 120px;
   grid-template-rows: 120px 120px;
 }
@@ -265,7 +267,9 @@ a {
 }
 .text1 {
   background-color: rgb(230, 229, 229);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 ul {
   display: flex;
@@ -275,7 +279,7 @@ ul {
   justify-content: center;
   gap: 100px;
   color: #1836de;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #social {
   display: flex;
@@ -289,5 +293,62 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   justify-items: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width: 0px) and (max-width: 428px) {
+  .image {
+    background-image: url(./img-11-04.jpg);
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 428px) {
+  .container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #div4 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 428px) {
+  img {
+    background-image: url(./music.jpg);
+    background-size: cover;
+    /* padding: 1px; */
+  }
+  .shy {
+    display: none;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 428px) {
+  .inside-container {
+    display: none;
+  }
+  .check:active + .inside-container {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+  }
+  
+}
+@media screen and (min-width: 0px) and (max-width: 428px) {
+  .item9{
+    grid-column-start: 6;
+  grid-column-end: 7;
+  /* height: 70px; */
+  width: 60px;
+  }
 }
