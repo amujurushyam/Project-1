@@ -1,5 +1,5 @@
 #div1 {
-  padding: 5px;
+  padding: 1px;
   display: grid;
   gap: 1px;
 }
@@ -316,7 +316,15 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 20px;
+    /* left: 20px; */
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .div1{
+    padding: 1px;
   }
 }
 
@@ -342,13 +350,12 @@ footer {
     font-size: 15px;
     color: black;
   }
-  
 }
 @media screen and (min-width: 0px) and (max-width: 428px) {
-  .item9{
+  .item9 {
     grid-column-start: 6;
-  grid-column-end: 7;
-  /* height: 70px; */
-  width: 60px;
+    grid-column-end: 7;
+    /* height: 70px; */
+    width: 50px;
   }
 }
