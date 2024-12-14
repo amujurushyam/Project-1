@@ -297,7 +297,6 @@ footer {
 }
 @media screen and (min-width: 0px) and (max-width: 428px) {
   .image {
-    /* background-image: url(./img-11-04.jpg); */
     background-size: cover;
   }
 }
@@ -316,21 +315,19 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    /* left: 20px; */
   }
   .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .div1{
+  .div1 {
     padding: 1px;
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 428px) {
   img {
-    /* background-image: url(./music.jpg); */
     background-size: cover;
     padding: 1px;
   }
@@ -355,7 +352,6 @@ footer {
   .item9 {
     grid-column-start: 6;
     grid-column-end: 7;
-    /* height: 70px; */
     width: 50px;
   }
 }
